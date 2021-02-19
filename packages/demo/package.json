@@ -1,0 +1,33 @@
+{
+	"name": "@ORG_HERE/PACKAGE_HERE",
+	"version": "1.0.0",
+	"description": "",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/etcdigital/@ORG_HERE"
+	},
+	"license": "Apache-2.0",
+	"sideEffects": false,
+	"exports": {
+		".": {
+			"import": "./dist/index.module.js",
+			"require": "./dist/index.js"
+		},
+		"./package.json": "./package.json"
+	},
+	"main": "dist/index.js",
+	"module": "dist/index.module.js",
+	"source": "src/index.ts",
+	"types": "./dist/@types/index.d.ts",
+	"files": [
+		"dist",
+		"types"
+	],
+	"scripts": {
+		"build": "ptah",
+		"dev": "ptah -w"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}
