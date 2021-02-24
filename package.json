@@ -10,6 +10,7 @@
 		"build": "yarn workspaces run build",
 		"lint": "eslint --ignore-path .gitignore \"**/*.{ts,tsx,js,jsx}\"",
 		"prepublish": "yarn workspaces run build",
+		"build": "yarn workspaces run build",
 		"test": "jest"
 	},
 	"husky": {
