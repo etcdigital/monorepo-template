@@ -43,7 +43,7 @@
 		"@typescript-eslint/eslint-plugin": "4.18.0",
 		"@typescript-eslint/parser": "4.18.0",
 		"bundlesize2": "0.0.27",
-		"commitizen": "4.2.3",
+		"commitizen": "4.2.4",
 		"cz-conventional-changelog": "3.3.0",
 		"eslint": "7.22.0",
 		"eslint-config-airbnb-typescript": "12.3.1",
